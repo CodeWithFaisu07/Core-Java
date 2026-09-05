@@ -19,7 +19,7 @@ public class HashandEquals {
 
     }
 }
-class Student{
+class Student {
     private String  name;
 
     private int id;
@@ -35,5 +35,13 @@ class Student{
 
     public int getId() {
         return id;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                '}';
     }
 }
