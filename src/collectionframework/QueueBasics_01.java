@@ -13,8 +13,10 @@ public class QueueBasics_01 {
         q.offer(40);
         System.out.println(q);
 
-        System.out.println(q.poll());
+        System.out.println("Removing :"+q.poll());
         System.out.println( q);
+
+        System.out.println("peeking"+q.peek());
 
 
 
