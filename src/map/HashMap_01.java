@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class HashMap_01 {
-    static void main() {
+     static void main() {
         HashMap<Integer, String> map = new HashMap<>();
         map.put(1,"Faisal");
         map.put(2,"Abid landu");
