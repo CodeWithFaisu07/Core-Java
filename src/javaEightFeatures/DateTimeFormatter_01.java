@@ -17,7 +17,7 @@ public class DateTimeFormatter_01 {
     DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         LocalDate parse = LocalDate.parse(data, dateTimeFormatter);
         System.out.println(parse);
-         
+
 
 
     }
