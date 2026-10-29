@@ -72,6 +72,7 @@ public class ThreadLecture2 {
          ms1.start();
          ms2.start();
          ms3.start();
- // so in this Program Its Faces a Race condition to prevent it we should have to set Priority of Thread and set Internal thread as Demonstrativr thred
+ // so in this Program Its Faces a Race condition to prevent it we s
+        // hould have to set Priority of Thread and set Internal thread as Demonstrativr thred
     }
 }
